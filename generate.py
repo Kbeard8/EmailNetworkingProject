@@ -4,7 +4,7 @@ Code to generate messages and possible addresses
 """
 
 
-def gen_message(name, position, company, internship):
+def gen_message(name, company, position, internship):
     with open("message_template") as txt:
         msg = txt.read()
     first_name = (name.split(" "))[0]
