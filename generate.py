@@ -15,10 +15,16 @@ def gen_message(name, company, position, internship):
 def gen_addresses(name, company):
     possible_addresses = []
     first_name, last_name = (name.split(" "))  #firstname, lastname
+
+    #john doe working at snap as example
     possible_addresses.append(
-        first_name + "." + last_name + "@" + company + ".com")  #firstname.lastname@company.com
+        first_name + "." + last_name + "@" + company + ".com")  #john.doe@snap.com
     possible_addresses.append(
-        first_name[0] + last_name + "@" + company + ".com")  #first letter of firstnamelastname@company.com
+        first_name[0] + last_name + "@" + company + ".com")  #jdoe@snap.com
+    possible_addresses.append(
+        first_name + "@" + company + ".com")  #john@snap.com
+    possible_addresses.append(
+        first_name + last_name[0] + "@" + company + ".com")  #jdoe@snap.com
 
     return possible_addresses
 
