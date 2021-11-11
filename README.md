@@ -15,5 +15,6 @@ Adams suggestion
 Use JSon instead of CSV
 Use AWS - set up EC2 Server -> s3 buckets for files
 -> storing the information in a sql file
+Josh Suggestions  Use SQLLit
 
 Possible improvement: Combine parse and main because right now i am doing extra work of storing everything in array and then looping through array O(2n) vs O(n)
