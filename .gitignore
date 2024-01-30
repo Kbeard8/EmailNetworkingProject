@@ -1,0 +1,6 @@
+password.txt
+.idea/
+__pycache__/
+chromedriver
+passwords.json
+sent contacts
