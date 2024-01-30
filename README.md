@@ -1,4 +1,4 @@
-This project is meant to help me network. I wrote a script to send automatically generated emails to employees at companies I am interested in. The goal is to set up meetings so that I can learn more about the company and the role that I am interestedn in. The program guesses the employees email based on their first and last name, and the company. 
+This project is meant to help me network. I wrote a script to send automatically generated emails to employees at companies I am interested in. The goal is to set up meetings so that I can learn more about the company and the role that I am interestedn in. The program guesses the employees email based on their first and last name, and the company.
 
 
 
